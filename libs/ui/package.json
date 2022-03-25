@@ -2,9 +2,15 @@
   "name": "@aktarus006/ui",
   "version": "0.0.1",
   "description": "UI library for Nuxt 3",
-  "main": "nuxt.js",
+  "main": "nuxt.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  "peerDependencies": {
+    "nuxt3" : "latest",
+    "@vueuse/nuxt" : "^8.1.2",
+    "@unocss/nuxt" : "^0.30.3"
   },
   "keywords": [
     "Nuxt",
