@@ -12,6 +12,7 @@
     "webpack": "^5.70.0"
   },
   "devDependencies": {
+    "@aktarus006/ui": "workspace:0.0.1",
     "@antfu/eslint-config": "^0.18.9",
     "@iconify-json/carbon": "^1.1.2",
     "@pinia/nuxt": "^0.1.8",
