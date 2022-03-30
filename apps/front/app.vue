@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <main text="center">
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
-  </div>
+  </main>
 </template>
 
 <style>
@@ -13,6 +13,7 @@ body,
   height: 100vh;
   margin: 0;
   padding: 0;
+  background: linear-gradient(#d6f3ec);
 }
 
 html.dark {

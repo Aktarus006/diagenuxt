@@ -1,3 +1,3 @@
 <template>
-  hELLO
+  Hello Register
 </template>
