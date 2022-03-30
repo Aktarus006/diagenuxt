@@ -14,15 +14,13 @@ const cssVars = computed(() => {
 </script>
 
 <template>
-  <a :href="pathUrl" class="hover-underline-animation" :style="cssVars">
+  <a :href="pathUrl" class="hover-underline-animation" :style="cssVars" display="inline-block" text="xl" pos="relative">
     <slot />
   </a>
 </template>
 
 <style scoped lang="scss">
 .hover-underline-animation {
-  display: inline-block;
-  position: relative;
   color: var(--colorValue);
 }
 
