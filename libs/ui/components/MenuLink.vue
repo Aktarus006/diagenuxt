@@ -1,20 +1,29 @@
 <script setup lang="ts">
 const props = defineProps({
   pathUrl: String,
+  colorValue: String,
 })
+
+const cssVars = computed(() => {
+  return {
+    '--colorValue': props.colorValue,
+  }
+})
+
+
 </script>
 
 <template>
-  <a :href="pathUrl" class="hover-underline-animation">
+  <a :href="pathUrl" class="hover-underline-animation" :style="cssVars">
     <slot />
   </a>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .hover-underline-animation {
   display: inline-block;
   position: relative;
-  color: #0087ca;
+  color: var(--colorValue);
 }
 
 .hover-underline-animation:after {
@@ -25,7 +34,7 @@ const props = defineProps({
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #0087ca;
+  background-color: var(--colorValue);
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }

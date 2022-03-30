@@ -6,11 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
   "peerDependencies": {
-    "nuxt3" : "latest",
-    "@vueuse/nuxt" : "^8.1.2",
-    "@unocss/nuxt" : "^0.30.3"
+    "@unocss/nuxt": "^0.30.3",
+    "@vueuse/nuxt": "^8.1.2",
+    "nuxt3": "latest"
   },
   "keywords": [
     "Nuxt",
@@ -18,5 +17,9 @@
     "UI"
   ],
   "author": "Joachim Bastin",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.49.9",
+    "sass-loader": "10"
+  }
 }
