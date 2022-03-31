@@ -1,5 +1,5 @@
 <template>
-  <main text="center">
+  <main text="center" w="screen">
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>

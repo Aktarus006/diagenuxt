@@ -1,3 +1,3 @@
 <template>
-  <TheHero />
+  <NavBar />
 </template>
