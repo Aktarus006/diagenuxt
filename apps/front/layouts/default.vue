@@ -1,6 +1,8 @@
 <template>
-  <TheHeader />
-  <div class="container">
-    <slot />
+  <div>
+    <TheHeader />
+    <div>
+      <slot />
+    </div>
   </div>
 </template>

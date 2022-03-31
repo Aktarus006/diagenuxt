@@ -1,5 +1,5 @@
 <template>
-  <main text="center" w="screen">
+  <main text="center">
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
@@ -7,16 +7,5 @@
 </template>
 
 <style>
-html,
-body,
-#app {
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(#d6f3ec);
-}
-
-html.dark {
-  background: linear-gradient(darkcyan, black);
-}
+@import '~/assets/styles/main.scss';
 </style>

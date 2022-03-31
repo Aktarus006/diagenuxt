@@ -15,9 +15,9 @@ const cssVars = computed(() => {
 
 <template>
   <div class="flex items-center" bg="[rgba(255,255,255,0.2)]" border="rounded-xl" p="x-4 y-2" shadow="blue-gray-500 sm" filter = "~ blur-sm brightness-125" hover=" shadow-lg">
-    <a :href="pathUrl" class="hover-underline-animation" :style="cssVars" text="xl" pos="relative">
+    <NuxtLink :to="pathUrl" class="hover-underline-animation" :style="cssVars" text="xl" pos="relative">
     <slot />
-  </a>
+  </NuxtLink>
   </div>
   
 </template>

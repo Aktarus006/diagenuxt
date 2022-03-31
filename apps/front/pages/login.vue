@@ -1,3 +1,5 @@
 <template>
-  HEllo login
+  <div>
+    HEllo login
+  </div>
 </template>
