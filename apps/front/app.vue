@@ -1,9 +1,9 @@
 <template>
-  <main text="center">
-    <NuxtLayout>
+  <NuxtLayout>
+    <main text="center">
       <NuxtPage />
-    </NuxtLayout>
-  </main>
+    </main>
+  </NuxtLayout>
 </template>
 
 <style>

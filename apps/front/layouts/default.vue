@@ -1,8 +1,6 @@
 <template>
   <div>
-    <TheHeader />
-    <div>
-      <slot />
-    </div>
+    <NavBar />
+    <slot />
   </div>
 </template>
