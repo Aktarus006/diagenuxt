@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "develop": "strapi develop",
+    "dev": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
@@ -13,7 +13,7 @@
     "@babel/core": "^7.17.8",
     "@strapi/plugin-i18n": "4.1.5",
     "@strapi/plugin-users-permissions": "4.1.5",
-    "@strapi/strapi": "4.1.5",
+    "@strapi/strapi": "^4.1.6",
     "immer": "^9.0.12",
     "koa": "^2.13.4",
     "pg": "8.6.0",
