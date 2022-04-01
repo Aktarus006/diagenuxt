@@ -14,8 +14,8 @@ const cssVars = computed(() => {
 </script>
 
 <template>
-  <div class="flex items-center" bg="[rgba(255,255,255,0.2)]" border="rounded-xl" p="x-4 y-2" shadow="blue-gray-500 sm" filter = "~ blur-sm brightness-125" hover=" shadow-lg">
-    <NuxtLink :to="pathUrl" class="hover-underline-animation" :style="cssVars" text="xl" pos="relative">
+  <div class="flex items-center" bg="[rgba(255,255,255,0.2)]" border="rounded-xl" p="x-2" shadow="blue-gray-500 sm" filter = "~ blur-sm brightness-125" hover=" shadow-lg">
+    <NuxtLink :to="pathUrl" class="hover-underline-animation" :style="cssVars" text="lg" pos="relative">
     <slot />
   </NuxtLink>
   </div>
@@ -36,7 +36,7 @@ const cssVars = computed(() => {
   bottom: 0;
   left: 0;
   background-color: var(--colorValue);
-  transform-origin: bottom right;
+  transform-origin: bottom left;
   transition: transform 0.25s ease-out;
 }
 
