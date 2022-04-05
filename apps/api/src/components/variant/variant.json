@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_variant_variants",
+  "info": {
+    "displayName": "Variant",
+    "icon": "university",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Format": {
+      "type": "string"
+    },
+    "price_USD": {
+      "type": "decimal"
+    },
+    "price_EUR": {
+      "type": "decimal"
+    },
+    "salesforce_ID": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
