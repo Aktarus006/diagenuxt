@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_prices_prices",
+  "info": {
+    "displayName": "Price",
+    "icon": "dollar-sign"
+  },
+  "options": {},
+  "attributes": {
+    "ISOCurrency": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "decimal"
+    }
+  }
+}

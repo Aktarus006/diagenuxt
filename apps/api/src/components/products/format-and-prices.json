@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_products_format_and_prices",
+  "info": {
+    "displayName": "formatAndPrices",
+    "icon": "money-check-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Format": {
+      "type": "string"
+    },
+    "CatalogNumber": {
+      "type": "string"
+    },
+    "SalesforceId": {
+      "type": "string"
+    },
+    "ProductPrice": {
+      "type": "component",
+      "repeatable": true,
+      "component": "prices.price"
+    },
+    "InStock": {
+      "type": "boolean"
+    },
+    "Quotable": {
+      "type": "boolean"
+    }
+  }
+}
